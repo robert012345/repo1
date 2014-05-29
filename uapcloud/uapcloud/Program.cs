@@ -12,6 +12,7 @@ namespace uapcloud
         [STAThread]
         static void Main()
         {
+            // aqui se inicia la applicacion
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
